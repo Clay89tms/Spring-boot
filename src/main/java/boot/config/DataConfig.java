@@ -1,11 +1,11 @@
 package boot.config;
 
+import boot.service.BookService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import org.tms.boot.service.BookService;
 
 import javax.sql.DataSource;
 
