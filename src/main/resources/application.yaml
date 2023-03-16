@@ -34,4 +34,4 @@ car:
       age: 10
       color: RED
 timer:
-  enable: star
+  enable: start
